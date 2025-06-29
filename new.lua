@@ -285,7 +285,7 @@ local function ServerHop()
 	ServerHopping = true
 
 	local ScriptFile = GetDirectory() .. "/FarmPaid.lua"
-	local ScriptSaved = game:HttpGet("")
+	local ScriptSaved = game:HttpGet("https://raw.githubusercontent.com/Imkushy/FarmCashNew/refs/heads/main/new.lua")
 	
 	writefile(ScriptFile, ScriptSaved)
 
